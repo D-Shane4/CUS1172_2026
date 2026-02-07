@@ -1,0 +1,23 @@
+@media screen and (max-width: 1024px) {
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    table {
+        width: 100%;
+    }
+}

@@ -1,0 +1,39 @@
+body{
+    background-image: url("https://i.pinimg.com/736x/7b/4d/56/7b4d561e88b609617c4596f72de88496.jpg");
+  
+}
+
+ 
+ #Intro{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+ }
+
+
+p{
+    font-family: 'Playwrite NZ Basic Guides', cursive;
+    font: 200;
+    font-weight: 450;
+    text-align: center;
+}
+
+  
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  border: 10px solid black;
+}
+.heading{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
