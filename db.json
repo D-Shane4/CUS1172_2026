@@ -14,7 +14,7 @@
         {
           "id":"protein",
           "type": "multiple-choice",
-          "instruction": "Choose your protein";
+          "instruction": "Choose your protein",
           "options": ["Chicken", "Grilled Chicken", "Beef Patty", "Vegan Patty"]
         {
           "id": "sauce",
