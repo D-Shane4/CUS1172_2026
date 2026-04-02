@@ -12,10 +12,11 @@
           "feedback": null
         },
         {
-          "id":"protein",
+          "id": "protein",
           "type": "multiple-choice",
           "instruction": "Choose your protein",
-          "options": ["Chicken", "Grilled Chicken", "Beef Patty", "Vegan Patty"]
+          "options": ["Chicken", "Grilled Chicken", "Beef Patty", "Vegan Patty"],
+          "feedback": null
         },
         {
           "id": "sauce",
@@ -24,7 +25,8 @@
           "feedback": {
             "condition": "amount > 3",
             "message": "Too much sauce might overpower the flavor!"
-          },
+          }
+        },
         {
           "id": "cheese",
           "type": "multiple-choice",
@@ -32,14 +34,6 @@
           "options": ["Cheese", "No Cheese"],
           "feedback": null
         },
-        {
-        "id": "sauce",
-          "type": "text",
-          "instruction": "Enter number of sauce servings",
-          "feedback": {
-            "condition": "amount > 3",
-            "message": "Too much sauce might overpower the flavor!"
-          },
         {
           "id": "burgerpres",
           "type": "image-selection",
