@@ -2,17 +2,22 @@
   "burgers": [
     {
       "id": "classic-beef",
-      "title": "Classic Beef Burger",
+      "title": "Classic Burger/Sandwich",
       "steps": [
         {
-          "id": "step1",
+          "id": "bun",
           "type": "multiple-choice",
           "instruction": "Choose your bun",
           "options": ["Sesame", "Brioche", "Lettuce Wrap"],
           "feedback": null
         },
         {
-          "id": "step2",
+          "id":"protein",
+          "type": "multiple-choice",
+          "instruction": "Choose your protein";
+          "options": ["Chicken", "Grilled Chicken", "Beef Patty", "Vegan Patty"]
+        {
+          "id": "sauce",
           "type": "text",
           "instruction": "Enter number of sauce servings",
           "feedback": {
@@ -21,14 +26,22 @@
           }
         },
         {
-          "id": "step3",
-          "type": "text",
+          "id": "cheese",
+          "type": "multiple-choice",
           "instruction": "Add Cheese",
           "options": ["Cheese", "No Cheese"],
           "feedback": null
         },
         {
-          "id": "step4",
+        "id": "sauce",
+          "type": "text",
+          "instruction": "Enter number of sauce servings",
+          "feedback": {
+            "condition": "amount > 3",
+            "message": "Too much sauce might overpower the flavor!"
+          },
+        {
+          "id": "burgerpres",
           "type": "image-selection",
           "instruction": "Choose your burger presentation",
           "imageOptions": [
