@@ -1,0 +1,37 @@
+{
+  "burgers": [
+    {
+      "id": "classic-beef",
+      "title": "Classic Beef Burger",
+      "steps": [
+        {
+          "id": "step1",
+          "type": "multiple-choice",
+          "instruction": "Choose your bun",
+          "options": ["Sesame", "Brioche", "Lettuce Wrap"],
+          "feedback": null
+        },
+        {
+          "id": "step2",
+          "type": "text",
+          "instruction": "Enter number of sauce servings",
+          "feedback": {
+            "condition": "amount > 3",
+            "message": "Too much sauce might overpower the flavor!"
+          }
+        },
+        {
+          "id": "step3",
+          "type": "image-selection",
+          "instruction": "Choose your burger presentation",
+          "imageOptions": [
+            { "url": "img/presentation1.jpg", "isCorrect": false },
+            { "url": "img/presentation2.jpg", "isCorrect": true },
+            { "url": "img/presentation3.jpg", "isCorrect": false }
+          ],
+          "feedback": null
+        }
+      ]
+    }
+  ]
+}
