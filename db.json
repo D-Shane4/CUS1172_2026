@@ -24,7 +24,7 @@
           "id": "step4",
           "type": "text",
           "instruction": "Add Cheese",
-          "options": ["Cheese", "No Cheese"].
+          "options": ["Cheese", "No Cheese"],
           "feedback": null
         },
         {
