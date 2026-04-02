@@ -21,7 +21,14 @@
           }
         },
         {
-          "id": "step3",
+          "id": "step4",
+          "type": "text",
+          "instruction": "Add Cheese",
+          "options": ["Cheese", "No Cheese"].
+          "feedback": null
+        },
+        {
+          "id": "step4",
           "type": "image-selection",
           "instruction": "Choose your burger presentation",
           "imageOptions": [
