@@ -16,6 +16,7 @@
           "type": "multiple-choice",
           "instruction": "Choose your protein",
           "options": ["Chicken", "Grilled Chicken", "Beef Patty", "Vegan Patty"]
+        },
         {
           "id": "sauce",
           "type": "text",
@@ -23,8 +24,7 @@
           "feedback": {
             "condition": "amount > 3",
             "message": "Too much sauce might overpower the flavor!"
-          }
-        },
+          },
         {
           "id": "cheese",
           "type": "multiple-choice",
