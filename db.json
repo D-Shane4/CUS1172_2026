@@ -93,7 +93,7 @@
           "type": "image-selection",
           "instruction": "Choose your burger presentation",
           "imageOptions": [
-            { "url": "img/presentation1.jpg", "isCorrect": false },
+            { "url": "https://hips.hearstapps.com/hmg-prod/images/banh-mi-turkey-burger-secondary-6578982fea00a.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*", "isCorrect": false },
             { "url": "img/presentation2.jpg", "isCorrect": true },
             { "url": "img/presentation3.jpg", "isCorrect": false }
           ],
