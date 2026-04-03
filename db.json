@@ -19,13 +19,13 @@
           "feedback": null
         },
         {
-        "id": "toppings",
+          "id": "toppings",
           "type": "multiple-choice",
           "instruction": "Choose your topping",
           "options": ["Pickles", "Onions", "Lettuce", "Tomatoes"],
           "feedback": null
         },
-         {
+        {
           "id": "cheese",
           "type": "multiple-choice",
           "instruction": "Add Cheese?",
@@ -39,8 +39,8 @@
           "feedback": {
             "condition": "amount > 3",
             "message": "Too much sauce might overpower the flavor!"
+          }
         },
-       
         {
           "id": "burgerpres",
           "type": "image-selection",
