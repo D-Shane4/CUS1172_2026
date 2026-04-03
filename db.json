@@ -39,7 +39,7 @@
           "type": "image-selection",
           "instruction": "Choose your burger presentation",
           "imageOptions": [
-            { "url": "https://hips.hearstapps.com/hmg-prod/images/banh-mi-turkey-burger-secondary-6578982fea00a.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*", "isCorrect": false },
+            { "url": "https://t4.ftcdn.net/jpg/02/48/20/95/360_F_248209563_B5Up76SMpoo95vV6jelZBOLATK2v2zj3.jpg", "isCorrect": false },
             { "url": "https://www.shutterstock.com/image-photo/delicious-burger-fries-on-plate-600nw-2624359571.jpg", "isCorrect": true },
             { "url": "https://m.media-amazon.com/images/I/81uqFIwobYL.jpg,", "isCorrect": false }
           ],
