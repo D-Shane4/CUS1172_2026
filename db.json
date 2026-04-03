@@ -94,7 +94,7 @@
           "instruction": "Choose your burger presentation",
           "imageOptions": [
             { "url": "https://hips.hearstapps.com/hmg-prod/images/banh-mi-turkey-burger-secondary-6578982fea00a.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*", "isCorrect": false },
-            { "url": "https://t3.ftcdn.net/jpg/00/52/00/08/360_F_52000863_GcJNQRwuqDGRvqW0AO6WHuMdvpV02cH8.jpg", "isCorrect": true },
+            { "url": "https://stock.adobe.com/search?k=hamburger+on+plate", "isCorrect": true },
             { "url": "img/presentation3.jpg", "isCorrect": false }
           ],
           "feedback": null
