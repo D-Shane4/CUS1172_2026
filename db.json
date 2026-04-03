@@ -15,7 +15,7 @@
           "id": "protein",
           "type": "multiple-choice",
           "instruction": "Choose your protein",
-          "options": ["Smashed Patty", " Regular Beef Patty", "Vegan Patty"],
+          "options": ["Smashed Patty", "Regular Beef Patty", "Vegan Patty"],
           "feedback": null
         },
         {
@@ -47,42 +47,44 @@
         }
       ]
     },
-    { "id": "bacon-cheese-burger",
+    {
+      "id": "bacon-cheese-burger",
       "title": "Bacon Cheese Burger",
-      "steps":[
+      "steps": [
         {
-          "id": "bacon-bun"
-          "type": "mutltipe-choice",
-           "instruction": "Choose your bun",
+          "id": "bacon-bun",
+          "type": "multiple-choice",
+          "instruction": "Choose your bun",
           "options": ["Sesame", "Brioche", "Lettuce Wrap"],
           "feedback": null
         },
-         {
+        {
           "id": "bacon-protein",
           "type": "multiple-choice",
           "instruction": "Choose your protein",
-          "options": ["Smashed Patty", " Regular Beef Patty", "Vegan Patty"],
+          "options": ["Smashed Patty", "Regular Beef Patty", "Vegan Patty"],
           "feedback": null
         },
         {
-        "id": "bacon-sauce",
+          "id": "bacon-sauce",
           "type": "text",
           "instruction": "Enter number of sauce servings",
           "feedback": {
             "condition": "amount > 3",
             "message": "Too much sauce might overpower the flavor!"
-          },
-          {
+          }
+        },
+        {
           "id": "bacon-toppings",
           "type": "multiple-choice",
-          "instruction": "Choose your topping"
+          "instruction": "Choose your topping",
           "options": ["Pickles", "Onion Rings", "Lettuce", "Tomatoes"],
           "feedback": null
         },
         {
           "id": "bacon-patty",
           "type": "multiple-choice",
-          "instruction": "Choose Patty Amount"
+          "instruction": "Choose Patty Amount",
           "options": ["Double Patty", "Triple Patty", "Quad Patty"],
           "feedback": null
         },
@@ -96,10 +98,8 @@
             { "url": "img/presentation3.jpg", "isCorrect": false }
           ],
           "feedback": null
-         }
+        }
+      ]
     }
   ]
-  ]
 }
-      
-
