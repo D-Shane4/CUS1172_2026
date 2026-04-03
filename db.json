@@ -19,21 +19,28 @@
           "feedback": null
         },
         {
+        "id": "toppings",
+          "type": "multiple-choice",
+          "instruction": "Choose your topping",
+          "options": ["Pickles", "Onions", "Lettuce", "Tomatoes"],
+          "feedback": null
+        },
+         {
+          "id": "cheese",
+          "type": "multiple-choice",
+          "instruction": "Add Cheese?",
+          "options": ["Cheese", "No Cheese"],
+          "feedback": null
+        },
+        {
           "id": "sauce",
           "type": "text",
           "instruction": "Enter number of sauce servings",
           "feedback": {
             "condition": "amount > 3",
             "message": "Too much sauce might overpower the flavor!"
-          }
         },
-        {
-          "id": "cheese",
-          "type": "multiple-choice",
-          "instruction": "Add Cheese",
-          "options": ["Cheese", "No Cheese"],
-          "feedback": null
-        },
+       
         {
           "id": "burgerpres",
           "type": "image-selection",
@@ -62,7 +69,7 @@
           "id": "bacon-protein",
           "type": "multiple-choice",
           "instruction": "Choose your protein",
-          "options": ["Smashed Patty", "Regular Beef Patty", "Vegan Patty"],
+          "options": ["Smashed Patty", "Regular Beef Patty"],
           "feedback": null
         },
         {
